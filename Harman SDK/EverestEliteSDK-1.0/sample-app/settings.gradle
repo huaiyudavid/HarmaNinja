@@ -1,0 +1,1 @@
+include ':app', ':everest_elite_sdk', ':everest_elite_sdk-release'
