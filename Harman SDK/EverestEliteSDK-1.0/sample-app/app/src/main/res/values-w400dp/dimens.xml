@@ -1,0 +1,104 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="headertxtSize">20sp</dimen>
+    <dimen name="headerheight">55dp</dimen>
+    <dimen name="marginsettingicon">10sp</dimen>
+    <dimen name="mainmessage">28sp</dimen>
+    <dimen name="circleheight">180dp</dimen>
+    <dimen name="whitecircle">150dp</dimen>
+    <dimen name="splashwhitecircle">120dp</dimen>
+
+    <dimen name="hpHeight">150px</dimen>
+    <dimen name="hpWidth">98px</dimen>
+    <dimen name="sbMarginBottom">20dp</dimen>
+    <dimen name="sbMarginLeft">40dp</dimen>
+    <dimen name="sbMarginRight">40dp</dimen>
+    <dimen name="hpMarginBottom">5dp</dimen>
+
+    <dimen name="heightOfImage">45dp</dimen>
+    <dimen name="FrameImageMarginTop">20dp</dimen>
+    <dimen name="fragment_textview_height">55dp</dimen>
+    <dimen name="fragment_smart_button_textview_height">85dp</dimen>
+
+    <dimen name="fragment_textview_padding_left">30dp</dimen>
+
+    <dimen name="fragment_textview_padding_top">12dp</dimen>
+    <dimen name="smart_button_padding_top">20dp</dimen>
+    <dimen name="smart_button_image_padding_top">15dp</dimen>
+    <dimen name="smart_button_margin_top">10dp</dimen>
+    <dimen name="fragment_device_name_margin_top">20dp</dimen>
+    <dimen name="fragment_settings_margin_left">7dp</dimen>
+    <dimen name="heading_margin_top">24sp</dimen>
+    <dimen name="margin5dp">5dp</dimen>
+    <dimen name="txt_size">18sp</dimen>
+    <dimen name="toggle_width">10dp</dimen>
+    <dimen name="layout_margin_top">10dp</dimen>
+    <dimen name="image_size">40dp</dimen>
+    <dimen name="image_top_padding">5dp</dimen>
+
+    <!-- TO DO -->
+    <dimen name="eqsetting_createNew_padding_left">70dp</dimen>
+    <dimen name="eqsetting_createNew_margin_top">10dp</dimen>
+    <dimen name="eqsetting_textview_padding_left">50dp</dimen>
+    <dimen name="eqsetting_image_textview_padding_left">20dp</dimen>
+
+    <!--ANC Controller-->
+
+    <dimen name="noisecontrolcirclewidh">298dp</dimen>
+    <dimen name="noisecontrolcircleheight">273dp</dimen>
+    <dimen name="noisecontrolmargin">15dp</dimen>
+    <dimen name="seekContainerWidth">335dp</dimen>
+    <dimen name="seekContainerHeight">310dp</dimen>
+    <dimen name="seekContainerMarginTop">20dp</dimen>
+    <dimen name="noiseTextMarginBottom">10dp</dimen>
+    <dimen name="tutorialText1TopMargin">200dp</dimen>
+    <dimen name="tutorialText2TopMargin">250dp</dimen>
+    <dimen name="thumb1Radius">45px</dimen>
+    <dimen name="thumb2Radius">45px</dimen>
+    <integer name="thumb1Angle">199</integer>
+    <integer name="thumb2Angle">160</integer>
+    <dimen name="thumb1Text">45px</dimen>
+    <dimen name="thumb2Text">45px</dimen>
+    <dimen name="noisecontrolTutorialcirclewidth">298dp</dimen>
+    <dimen name="noisecontrolTutorialcircleheight">275dp</dimen>
+    <dimen name="toggleButtonTutorialMarginTop">55dp</dimen>
+    <dimen name="seekContainerTutorialMarginTop">30dp</dimen>
+    <dimen name="ImageContainerTutorialMarginTop">35dp</dimen>
+    <dimen name="tutorialLayoutTopMargin">300dp</dimen>
+
+    <!-- CustomEq dimens BJ Need to paste in every dimensions-->
+    <dimen name="custom_eq_edtText_margin_top">20dp</dimen>
+    <dimen name="custom_eq_edtText_margin_left">10dp</dimen>
+    <dimen name="custom_eq_txtView_margin_left">10dp</dimen>
+    <dimen name="custom_eq_txtView_margin_top">10dp</dimen>
+    <dimen name="custom_eq_layout_height">40dp</dimen>
+    <dimen name="custom_eq_txtView_height">40dp</dimen>
+
+
+    <dimen name="homeuppercirclewidth">6dp</dimen>
+
+    <!--Text Size for Auto calibration -->
+    <dimen name="txtmainMessageHome">30sp</dimen>
+    <dimen name="txtmainMessage">20sp</dimen>
+    <dimen name="txtHelp">18sp</dimen>
+    <dimen name="txtConnecting">14sp</dimen>
+    <dimen name="txtBelowMessage">13sp</dimen>
+    <dimen name="autoCalimarginTop">60dp</dimen>
+    <dimen name="transparentStrokeWidth">20dp</dimen>
+
+    <!-- 18/7/2015-->
+    <dimen name="custom_eq_delete_button_height">50dp</dimen>
+    <dimen name="custom_eq_delete_button_margin_top">20dp</dimen>
+
+    <dimen name="eQimageOptionsWidth">30dp</dimen>
+    <dimen name="eQimageOptionsHeight">30dp</dimen>
+    <dimen name="eQimageOptionsMarginLeft">10dp</dimen>
+
+    <dimen name="headphoneicon">70dp</dimen>
+
+    <dimen name="switchwitdh">70dp</dimen>
+    <dimen name="switchheight">25dp</dimen>
+</resources>

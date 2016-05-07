@@ -1,0 +1,35 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="headertxtSize">26sp</dimen>
+    <dimen name="mainmessage">28sp</dimen>
+    <dimen name="circleheight">270dp</dimen>
+    <dimen name="whitecircle">150dp</dimen>
+    <dimen name="fragment_textview_height">55dp</dimen>
+    <dimen name="fragment_smart_button_textview_height">105dp</dimen>
+    <dimen name="fragment_textview_padding_left">30dp</dimen>
+    <dimen name="fragment_textview_padding_top">12dp</dimen>
+    <dimen name="smart_button_padding_top">20dp</dimen>
+    <dimen name="smart_button_image_padding_top">15dp</dimen>
+    <dimen name="smart_button_margin_top">10dp</dimen>
+    <dimen name="fragment_device_name_margin_top">20dp</dimen>
+    <dimen name="fragment_settings_margin_left">7dp</dimen>
+    <dimen name="heading_margin_top">24sp</dimen>
+    <dimen name="txt_size">18sp</dimen>
+    <dimen name="toggle_width">10dp</dimen>
+    <dimen name="layout_margin_top">10dp</dimen>
+    <dimen name="image_size">40dp</dimen>
+    <dimen name="image_top_padding">5dp</dimen>
+
+    <dimen name="eqsetting_createNew_padding_left">50dp</dimen>
+    <dimen name="eqsetting_createNew_margin_top">5dp</dimen>
+    <dimen name="seekbarheight">40dp</dimen>
+
+    <dimen name="homeuppercirclewidth">10dp</dimen>
+    <dimen name="transparentStrokeWidth">20dp</dimen>
+</resources>
