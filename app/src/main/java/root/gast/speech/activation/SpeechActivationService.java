@@ -15,7 +15,7 @@
  */
 package root.gast.speech.activation;
 
-import root.gast.R;
+import android.support.v7.appcompat.R;
 import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -137,7 +137,7 @@ public class SpeechActivationService extends Service implements
         Log.d(TAG, "started: " + activator.getClass().getSimpleName());
         isStarted = true;
         activator.detectActivation();
-        startForeground(NOTIFICATION_ID, getNotification(intent));
+        //startForeground(NOTIFICATION_ID, getNotification(intent));
     }
 
     private SpeechActivator getRequestedActivator(Intent intent)
@@ -203,42 +203,6 @@ public class SpeechActivationService extends Service implements
         }
     }
 
-    @SuppressLint("NewApi")
-    private Notification getNotification(Intent intent)
-    {
-        // determine label based on the class
-        String name = SpeechActivatorFactory.getLabel(this, activator);
-        String message =
-                getString(R.string.speech_activation_notification_listening)
-                        + " " + name;
-        String title = getString(R.string.speech_activation_notification_title);
-
-        PendingIntent pi =
-                PendingIntent.getService(this, 0, makeServiceStopIntent(this),
-                        0);
-
-        int icon = intent.getIntExtra(NOTIFICATION_ICON_RESOURCE_INTENT_KEY, R.drawable.icon);
-
-        Notification notification;
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
-        {
-            Notification.Builder builder = new Notification.Builder(this);
-            builder.setSmallIcon(icon)
-                    .setWhen(System.currentTimeMillis()).setTicker(message)
-                    .setContentTitle(title).setContentText(message)
-                    .setContentIntent(pi);
-            notification = builder.getNotification();
-        }
-        else
-        {
-            notification =
-                    new Notification(icon, message,
-                            System.currentTimeMillis());
-            notification.setLatestEventInfo(this, title, message, pi);
-        }
-
-        return notification;
-    }
 
     @Override
     public IBinder onBind(Intent intent)
