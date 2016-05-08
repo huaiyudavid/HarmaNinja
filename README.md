@@ -23,3 +23,6 @@ We learned the importance of preparation, as we did not prepare Android Studio b
 
 ## What's next for HarmaNinja
 If time permits, we would like to make the app fully functional, as currently it only plays demos from Spotify. WE would also like to expand HarmaNinja onto mobile devices, possibility creating our original idea, which was using the Harman Developer to create an Android app.
+
+##Try It Out
+go to: www.harmaninja.tech
