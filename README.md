@@ -1,5 +1,5 @@
-##HarmaNinja
-#A web app to let you command your music.
+#HarmaNinja
+##A web app to let you command your music.
 
 ## Inspiration
 We were tremendously inspired by science fiction movies, Iron Man in particular. The ability to flawlessly communicate with computers so that they can do menial tasks for us was excellent motivation. We wanted to enable everyone to feel the power and authority that comes with commanding computers to do your will.
